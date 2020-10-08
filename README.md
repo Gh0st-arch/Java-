@@ -16,15 +16,15 @@ Java课程作业项目仓库
 ```
 
 ## 实验内容
-·用类描述计算机中CPU的速度和硬盘的容量。要求Java应用程序有4个类,名字分别是PC、CPU、HardDisk、Test，其中Test是主类。
-其中，PC类要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m的值赋值给speed;HardDisk类要求getAmount()返回amount的值，要求setAmount(int m)方法将参数m的值赋值给amount;PC类要求setCPU(CPU c)将参数c的值赋值给cpu，要求setHardDisk(HardDisk h)方法将参数h的值赋值给HD，要求show()的方法能显示cpu的速度和硬盘的容量。
-·主类Test的要求
-（1）main方法中创建一个CPU对象cpu，cpu将自己的speed设置为2200。
-（2）main方法中创建一个HardDisk对象disk，disk将自己amount设置为200。
-（3）main方法中创建一个PC对象pc。
-（4）pc调用setCPU(CPU c)方法，调用时实参是cpu。
-（5）pc调用setHardDisk（HardDisk h）方法，调用时实参是disk。
-（6）pc调用show()方法。
+·用类描述计算机中CPU的速度和硬盘的容量。要求Java应用程序有4个类,名字分别是PC、CPU、HardDisk、Test，其中Test是主类。  
+其中，PC类要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m的值赋值给speed;HardDisk类要求getAmount()返回amount的值，要求setAmount(int m)方法将参数m的值赋值给amount;PC类要求setCPU(CPU c)将参数c的值赋值给cpu，要求setHardDisk(HardDisk h)方法将参数h的值赋值给HD，要求show()的方法能显示cpu的速度和硬盘的容量。  
+·主类Test的要求  
+（1）main方法中创建一个CPU对象cpu，cpu将自己的speed设置为2200。  
+（2）main方法中创建一个HardDisk对象disk，disk将自己amount设置为200。  
+（3）main方法中创建一个PC对象pc。  
+（4）pc调用setCPU(CPU c)方法，调用时实参是cpu。  
+（5）pc调用setHardDisk（HardDisk h）方法，调用时实参是disk。  
+（6）pc调用show()方法。  
 
 ## 实验设计
 ·本实验设计了计算机模拟程序内的CPU和硬盘，其中CPU类有Speed属性，硬盘类有amount属性，PC里设计有密码属性，在主类里有用try和if来检测用户是否输入密码正确，用户需要输入密码才能查看CPU的速度和硬盘的容量，在PC里有CheckPasssword这个构造方法和inputPassword用以让用户输入密码，用CheckPassword构造PC类变量时赋予了PC一个密码为123456。
