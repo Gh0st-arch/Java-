@@ -80,7 +80,7 @@ void setCPU(CPU c)
 
 
 ## 实验结果
-![result](https://github.com/Gh0st-arch/Java-/blob/main/img/QQ%E6%88%AA%E5%9B%BE20201008201025.png)
+![result](https://github.com/Gh0st-arch/Java-2/blob/main/img/QQ%E6%88%AA%E5%9B%BE20201024160116.png)
 
 ## 实验感想
 本次实验让我体会到了java这种面向对象编程的代码严谨的逻辑，强化了我对这种面向对象编程的思考能力，让我学习了如何使用权限修饰符来进行其他形式的访问对象。初步认识了java这种面对对象的简单编程，在有其他语言编程的基础上，体会到了面对对象与面对过程编程的区别，初步具备了编写简单小的java程序的能力。
